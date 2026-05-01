@@ -4,7 +4,7 @@ export default function SocialIcons() {
   return (
     <div className="flex justify-center gap-6 mt-8" aria-label="Social Media Links">
       <a
-        href="https://instagram.com/"
+        href="https://www.instagram.com/be.neversore?igsh=MWF4cTRmNDN1c3dwNA%253D%253"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Instagram"
