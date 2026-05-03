@@ -24,9 +24,9 @@ export default function Home() {
           opacity: 0.18;
           animation: drift 12s ease-in-out infinite alternate;
         }
-        .bg-orb-1 { width: 520px; height: 520px; background: #6c63ff; top: -120px; left: -120px; animation-delay: 0s; }
-        .bg-orb-2 { width: 400px; height: 400px; background: #ff6fd8; bottom: -80px; right: -60px; animation-delay: -4s; }
-        .bg-orb-3 { width: 300px; height: 300px; background: #43e6fc; top: 40%; left: 55%; animation-delay: -8s; }
+        .bg-orb-1 { width: 520px; height: 520px; background: #ff3b3b; top: -120px; left: -120px; animation-delay: 0s; }
+        .bg-orb-2 { width: 400px; height: 400px; background: #ff1744; bottom: -80px; right: -60px; animation-delay: -4s; }
+        .bg-orb-3 { width: 300px; height: 300px; background: #ff5555; top: 40%; left: 55%; animation-delay: -8s; }
 
         @keyframes drift {
           from { transform: translate(0, 0) scale(1); }
@@ -66,7 +66,7 @@ export default function Home() {
           position: absolute;
           top: 0; left: 10%; right: 10%;
           height: 1px;
-          background: linear-gradient(90deg, transparent, rgba(108,99,255,0.8), rgba(255,111,216,0.6), transparent);
+          background: linear-gradient(90deg, transparent, rgba(255,59,59,0.8), rgba(255,23,68,0.6), transparent);
           border-radius: 100px;
         }
 
@@ -86,9 +86,9 @@ export default function Home() {
           display: inline-flex;
           align-items: center;
           gap: 6px;
-          background: rgba(108,99,255,0.18);
-          border: 1px solid rgba(108,99,255,0.35);
-          color: #a99cff;
+          background: rgba(255,59,59,0.18);
+          border: 1px solid rgba(255,59,59,0.35);
+          color: #ff8080;
           font-size: 11px;
           font-family: 'DM Sans', sans-serif;
           font-weight: 500;
@@ -103,7 +103,7 @@ export default function Home() {
         .badge-dot {
           width: 6px; height: 6px;
           border-radius: 50%;
-          background: #a99cff;
+          background: #ff8080;
           animation: pulse 2s ease-in-out infinite;
         }
 
@@ -124,7 +124,7 @@ export default function Home() {
         }
 
         .cs-h1 span {
-          background: linear-gradient(135deg, #a99cff 0%, #ff6fd8 60%, #43e6fc 100%);
+          background: linear-gradient(135deg, #ff8080 0%, #ff3b3b 60%, #ff5555 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-clip: text;
@@ -164,12 +164,12 @@ export default function Home() {
           text-decoration: none;
         }
         .social-btn:hover {
-          background: rgba(108,99,255,0.2);
-          border-color: rgba(108,99,255,0.4);
+          background: rgba(255,59,59,0.2);
+          border-color: rgba(255,59,59,0.4);
           transform: translateY(-2px);
         }
         .social-btn svg { width: 18px; height: 18px; fill: rgba(255,255,255,0.6); transition: fill 0.2s; }
-        .social-btn:hover svg { fill: #a99cff; }
+        .social-btn:hover svg { fill: #ff8080; }
       `}</style>
 
       <div className="cs-body">
